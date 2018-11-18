@@ -1,0 +1,175 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar{
+    height: 17vh;
+    width: 100vw;
+    background-color: #D4E8F5;
+    color: black;
+    display: flex;
+}
+
+.navbar > div{
+    flex-basis: 50%;
+    font-size: 20px;
+    font-color: white;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navTitle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5em;
+}
+
+
+.navDetails{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+}
+
+.navDetails > div{
+    margin: 0 1em;
+}
+
+
+
+
+
+/* LANDING PAGE */
+.landingPage{
+    height: 90vh;
+    width: 100vw;
+    background-color: #808080;
+    background: url("https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252__340.jpg");
+  background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 1em;
+}
+
+.centerDiv{
+    height: auto;
+    width: 50vw;
+    color: #000080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+.imageHolder{
+    height: 15em;
+    width: 15em;
+    border-radius: 50%;
+    background: url('https://images.pexels.com/photos/255377/pexels-photo-255377.jpeg?auto=compress&cs=tinysrgb&h=350');
+    background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.welcome{
+    margin: 1em 0;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-family: 'Allerta Stencil', sans-serif;
+    
+}
+
+
+
+
+
+
+
+/* SKILLS  SECTION*/
+.skills{
+    height: auto;
+    width: auto;
+}
+
+.skillsHead{
+    width: 100vw;
+    background-color: white;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 50px;
+    color: black; 
+font-family: 'Abril Fatface', cursive;
+}
+
+.skillsSection{
+    width: 97vw;
+    height: 55vh;
+    margin: 5em 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillsSection > div{
+    background-color: white;
+    width: 25vw;
+}
+#html{
+    background: url('https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#cpp{
+    background: url('https://cdn3.iconfinder.com/data/icons/programming-16/512/programming_6_00001-2-512.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#py{
+    background: url('https://png.icons8.com/ios/1600/007AFF/python-filled');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+    margin-top: 7em;
+    height: 50vh;
+    width: 100vw;
+    background: url('https://cdn4.vectorstock.com/i/1000x1000/21/73/silhouette-of-tree-on-blue-backgrounds-landscape-vector-12342173.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+     background-repeat: no-repeat;
+    color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+footer > div{
+    width: 35em;
+    padding: 1em 2em;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
